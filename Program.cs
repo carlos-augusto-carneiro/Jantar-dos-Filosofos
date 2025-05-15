@@ -32,7 +32,7 @@ namespace Jantar_dos_Filosofos
 
         public static void Iniciar()
         {
-            string[] nomesFilosofos = { "Dijkstra", "Alexandre", "Tatiane", "Jacilane", "Patricia" };
+            string[] nomesFilosofos = { "Dijkstra", "Ada Lovelace", "Djikstra", "filosofo2", "filoso3" };
             for (int i = 0; i < garfos.Length; i++)
             {
                 garfos[i] = new object();

@@ -89,5 +89,20 @@
   <ItemGroup>
     <None Include="Resources\computer_science_philosopher_320x320.png" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AdaComendo.png" />
+    <EmbeddedResource Include="Resources\AdaFaminta.png" />
+    <EmbeddedResource Include="Resources\AdaPensando.png" />
+    <EmbeddedResource Include="Resources\AlanTuringComendo.png" />
+    <EmbeddedResource Include="Resources\AlanTuringFaminto.png" />
+    <EmbeddedResource Include="Resources\AlanTuringPensando.png" />
+    <EmbeddedResource Include="Resources\DjikstraComendo.png" />
+    <EmbeddedResource Include="Resources\DjikstraFaminto.png" />
+    <EmbeddedResource Include="Resources\DjikstraPensando.png" />
+    <EmbeddedResource Include="Resources\Filosofo2Comendo.png" />
+    <EmbeddedResource Include="Resources\Filosofo2Faminto.png" />
+    <EmbeddedResource Include="Resources\Filosofo2Pensando.png" />
+    <EmbeddedResource Include="Resources\computer_science_philosopher_320x320.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

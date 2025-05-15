@@ -57,22 +57,48 @@ namespace Jantar_dos_Filosofos
 
             if (botao != null)
             {
+                string nomeFilosofo = Program.filosofos[id].Name;
                 switch(estado)
                 {
                     case "pensando":
                         botao.BackColor = Color.Yellow;
                         botao.FlatAppearance.BorderColor = Color.Yellow;
+                        switch(nomeFilosofo)
+                        {
+                            case "Alan Turing": botao.BackgroundImage = Properties.Resources.AlanTuringPensando; break;
+                            case "Ada Lovelace": botao.BackgroundImage = Properties.Resources.AdaPensando; break;
+                            case "Filosofo 2": botao.BackgroundImage = Properties.Resources.Filosofo2Pensando; break;
+                            case "Djikstra": botao.BackgroundImage = Properties.Resources.DjikstraPensando; break;
+                            default: botao.BackgroundImage = Properties.Resources.computer_science_philosopher_320x320; break;
+                        }
                         break;
                     case "comendo":
                         botao.BackColor = Color.LightGreen;
                         botao.FlatAppearance.BorderColor = Color.LightGreen;
+                        switch(nomeFilosofo)
+                        {
+                            case "Alan Turing": botao.BackgroundImage = Properties.Resources.AlanTuringComendo; break;
+                            case "Ada Lovelace": botao.BackgroundImage = Properties.Resources.AdaComendo; break;
+                            case "Filosofo 2": botao.BackgroundImage = Properties.Resources.Filosofo2Comendo; break;
+                            case "Djikstra": botao.BackgroundImage = Properties.Resources.DjikstraComendo; break;
+                            default: botao.BackgroundImage = Properties.Resources.computer_science_philosopher_320x320; break;
+                        }
                         break;
                     case "quer comer":
                         botao.BackColor = Color.Red;
                         botao.FlatAppearance.BorderColor = Color.Red;
+                        switch(nomeFilosofo)
+                        {
+                            case "Alan Turing": botao.BackgroundImage = Properties.Resources.AlanTuringFaminto; break;
+                            case "Ada Lovelace": botao.BackgroundImage = Properties.Resources.AdaFaminta; break;
+                            case "Filosofo 2": botao.BackgroundImage = Properties.Resources.Filosofo2Faminto; break;
+                            case "Djikstra": botao.BackgroundImage = Properties.Resources.DjikstraFaminto; break;
+                            default: botao.BackgroundImage = Properties.Resources.computer_science_philosopher_320x320; break;
+                        }
                         break;
                     default:
                         botao.BackColor = SystemColors.Control;
+                        botao.BackgroundImage = Properties.Resources.computer_science_philosopher_320x320;
                         break;
                 }
                 botao.Text = $"{Program.filosofos[id].Name} - {estado}";
@@ -116,6 +142,9 @@ namespace Jantar_dos_Filosofos
             }
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

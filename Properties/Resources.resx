@@ -124,4 +124,40 @@
   <data name="computer_science_philosopher_320x320" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\computer_science_philosopher_320x320.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AlanTuringPensando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlanTuringPensando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlanTuringFaminto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlanTuringFaminto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AlanTuringComendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AlanTuringComendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdaPensando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdaPensando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdaFaminta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdaFaminta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdaComendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AdaComendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filosofo2Pensando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filosofo2Pensando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filosofo2Faminto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filosofo2Faminto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Filosofo2Comendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filosofo2Comendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DjikstraPensando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DjikstraPensando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DjikstraFaminto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DjikstraFaminto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DjikstraComendo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DjikstraComendo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
